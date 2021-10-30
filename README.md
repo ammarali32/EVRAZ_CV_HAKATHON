@@ -29,6 +29,6 @@ Don't forget to download the <a href="https://disk.yandex.ru/d/fKjGJTI91TWCNA">d
 ## Original Image VS Heat Map
 
 <figure><p float="left">
-<img src="https://github.com/ammarali32/EVRAZ_CV_HAKATHON/blob/main/gifs/danger_detection_heatmap_orig.gif" width="420" height="420" /></img> <img src="https://github.com/ammarali32/EVRAZ_CV_HAKATHON/blob/main/gifs/danger_detection_heatmap.gif" width="420" height="420" /></img>
+<img src="https://github.com/ammarali32/EVRAZ_CV_HAKATHON/blob/main/gifs/danger_detection_heatmap_orig.gif" width="380" height="380" /></img> <img src="https://github.com/ammarali32/EVRAZ_CV_HAKATHON/blob/main/gifs/danger_detection_heatmap.gif" width="380" height="380" /></img>
  </p>
  <br/><br/><br/><br/></br></figure>
