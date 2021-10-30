@@ -1,0 +1,16 @@
+version: '1.0'
+
+services:
+        EVRAZ_CV:
+                build: .
+                image: EVRAZ_CV_HAKATHON
+                container_name: EVRAZ_CV
+                runtime: nvidia
+                restart: always
+                ports:
+                        - 8002:8080
+                volumes:
+                        - .:/srv/app:rw
+                environment:
+                        - NVIDIA_VISIBLE_DEVICES=0
+
