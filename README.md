@@ -25,6 +25,10 @@ Don't forget to download the <a href="https://disk.yandex.ru/d/fKjGJTI91TWCNA">d
 * Download weights from <a href="https://drive.google.com/file/d/17rJM84Z9fiI5L7eWFqD7N6IJauezTYTr/view?usp=sharing">here</a>
 * <!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">python run<span style="color: #333333">.</span>py <span style="color: #333333">--</span>img_path orig1<span style="color: #333333">.</span>jpg <span style="color: #333333">--</span>weights tf_efficientnet_b1_ns_fold0_best<span style="color: #333333">.</span>pth
 </pre></div>
+## Option 2
+* <!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">docker build .
+</pre></div>
+* <a href = "https://docs.docker.com/get-docker/"> Docker Installation Guide</a>
 # Visualization 
 ## Original Image VS Heat Map
 
