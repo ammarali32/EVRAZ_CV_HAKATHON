@@ -11,7 +11,6 @@ if str(ROOT) not in sys.path:
 ROOT = Path(os.path.relpath(ROOT, Path.cwd()))  
 
 def main(opt):
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(get_detection(image_path = opt.img_path ,weights_path =opt.weights))
 
 def parse_opt():
