@@ -16,7 +16,7 @@ def main(opt):
 
 def parse_opt():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--weights',  type=str, default=ROOT / 'human_detection.pt', help='model path(s)')
+    parser.add_argument('--weights',  type=str, default=ROOT / 'tf_efficientnet_b1_ns_fold0_best.pth', help='model path(s)')
     parser.add_argument('--img_path', type=str, default=ROOT / 'test.jpg', help='image path')
     opt = parser.parse_args()
     return opt
